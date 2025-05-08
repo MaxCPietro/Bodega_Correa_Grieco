@@ -17,3 +17,32 @@ ul {
     border: 5px solid black;
     font-size: 200%;
 }
+
+.caja_1 {
+    border: red solid 15px;
+    padding: 15px;;
+}
+
+.elemento_1 {
+    background-color: yellowgreen;
+    height: 15px;
+}
+
+.posicionamientoFixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.contenedor {
+    border: #e5b5b5 solid 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.elemento {
+    width: 100px;
+    height: 100px;
+    border: red solid 5px;
+}
